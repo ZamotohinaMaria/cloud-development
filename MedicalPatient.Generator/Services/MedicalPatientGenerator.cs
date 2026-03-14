@@ -50,7 +50,7 @@ public class MedicalPatientGenerator(ILogger<MedicalPatientGenerator> logger)
         var firstName = faker.Name.FirstName(gender);
         var patronymic = faker.Name.FirstName(Name.Gender.Male) + (gender == Name.Gender.Male ? "вич" : "вна");
 
-        return string.Join(' ', firstName, lastName, patronymic);
+        return string.Join(' ', lastName, firstName, patronymic);
     }
 
     /// <summary>
