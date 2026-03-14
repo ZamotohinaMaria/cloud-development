@@ -42,7 +42,7 @@
 
   </br>При попытке получить пациента с ID = 0 возникает ошибка:</br>
 
-  ![alt text](./images/1/image-3.png)
+  ![alt text](./images/1/image-6.png)
 </details>
 
 <details>
