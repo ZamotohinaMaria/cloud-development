@@ -26,11 +26,11 @@
     Поднятые контейнеры
   </summary>
 
-  ![alt text](image.png)
+  ![alt text](./images/1/image.png)
 
-  ![alt text](image-1.png)
+  ![alt text](./images/1/image-1.png)
 
-  ![alt text](image-5.png)
+  ![alt text](./images/1/image-5.png)
 </details>
 
 <details>
@@ -38,9 +38,9 @@
     Пример полученного сотрудника
   </summary>
 
-  ![alt text](image-2.png)
+  ![alt text](./images/1/image-2.png)
 
-  ![alt text](image-3.png)
+  ![alt text](./images/1/image-3.png)
 </details>
 
 <details>
@@ -48,5 +48,5 @@
     Трассировки и демонстрация работы кэширования
   </summary>
 
-  ![alt text](image-4.png)
+  ![alt text](./images/1/image-4.png)
 </details>
