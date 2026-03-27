@@ -1,6 +1,5 @@
 using MedicalPatient.Generator.Services;
 using MedicalPatient.AppHost.ServiceDefaults;
-using Microsoft.Extensions.Caching.StackExchangeRedis;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +20,11 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader();
     });
 });
+
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.OpenTelemetry()
+    .WriteTo.Console()
+    .CreateLogger();
 
 var app = builder.Build();
 
